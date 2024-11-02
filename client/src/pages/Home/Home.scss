@@ -1,0 +1,52 @@
+.home-page {
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(to right, #2563eb, #3b82f6);
+    color: white;
+    
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+    
+    .button-primary {
+      background: white;
+      color: $primary-color;
+      font-size: 1.125rem;
+      padding: 0.75rem 1.5rem;
+      
+      &:hover {
+        background: darken(white, 5%);
+      }
+    }
+  }
+
+  .feature-card {
+    h3 {
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    p {
+      color: #64748b;
+      line-height: 1.5;
+    }
+  }
+
+  .recent-activity {
+    padding: 2rem;
+    
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+  }
+} 

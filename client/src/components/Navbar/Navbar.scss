@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  .navbar-brand {
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: $primary-color;
+      text-decoration: none;
+    }
+  }
+
+  .navbar-menu {
+    display: flex;
+    gap: 2rem;
+    margin-left: 3rem;
+
+    .nav-item {
+      color: $text-color;
+      text-decoration: none;
+      font-weight: 500;
+      
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .navbar-end {
+    margin-left: auto;
+  }
+} 
